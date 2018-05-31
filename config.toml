@@ -1,0 +1,7 @@
+[parity]
+base_path = "/mounted-data"
+db_path = "/mounted-data/chains"
+keys_path = "/mounted-data/keys"
+
+[misc]
+log_file = "/mounted-logs/parity.log"
