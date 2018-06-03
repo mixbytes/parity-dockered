@@ -5,3 +5,7 @@ keys_path = "/mounted-data/keys"
 
 [misc]
 log_file = "/mounted-logs/parity.log"
+
+
+[network]
+warp = true

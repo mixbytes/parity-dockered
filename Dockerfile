@@ -5,6 +5,7 @@ RUN apt update && apt install -y git build-essential openssl libssl-dev libudev-
 WORKDIR /opt
 RUN git clone https://github.com/paritytech/parity
 WORKDIR /opt/parity
+RUN git checkout stable
 
 RUN cargo build --release
 
